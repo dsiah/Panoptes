@@ -7,6 +7,10 @@ var CheckIcon = require('./CheckIcon.jsx');
 
 module.exports = React.createClass({
 	render: function() {
-		return <div className="title"><InBtn /><OutBtn /><XIcon /><CheckIcon /></div>;
+		return <div className="title">
+			<InBtn />
+			<XIcon />
+			<CheckIcon />
+		</div>;
 	}
 });
