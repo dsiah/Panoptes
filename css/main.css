@@ -34,3 +34,9 @@ html {
 	border: solid 1px;
 	margin: 25px;
 }
+
+.go-btn {
+	width: 20%;
+	min-height: 30px;
+	font-size: 35px;
+}
