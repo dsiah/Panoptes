@@ -1,7 +1,10 @@
 html {
 	font-family: arial;
 }
-
+body {
+	height: 100%;
+	width: 100%;
+}
 .source-btn {
 	border: solid 1px;
 	width: 0.1px;
@@ -40,3 +43,43 @@ html {
 	min-height: 30px;
 	font-size: 35px;
 }
+
+/** Start Card Styles */
+.card {
+	padding: 0px;
+	max-height: 600px;
+	min-height: 450px;
+	max-width: 450px;
+	min-width: 300px;
+	height: 50%;
+	display: flex;
+	flex-flow: row;
+	background-color: #ffffcc;
+}
+.cardContent {
+	margin: 0px;
+	padding: 0px;
+	height: ;
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.cardButtons {
+	margin: 0px;
+	height: ;
+	align-self: flex-end;
+	display: inline-flex;
+	flex-flow: row;
+}
+
+.leftButton {
+	background-color: #ff5050;
+	color: white;
+}
+.rightButton {
+	color: white;
+	background-color: #80ff80;
+
+}
+
+/*  End Card Styles */

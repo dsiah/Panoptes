@@ -6,7 +6,7 @@ var React = require('react');
 module.exports = React.createClass({
 	render: function() {
 		return (
-      <div className={"card " + "card-index"this.props.index}>
+      <div className={"card " + "card-index" + this.props.index}>
         <div className="cardContent">
           {this.props.content}
         </div>

@@ -3,7 +3,7 @@ var InBtn = require('./InBtn.jsx');
 var OutBtn = require('./OutBtn.jsx');
 var XIcon = require('./XIcon.jsx');
 var CheckIcon = require('./CheckIcon.jsx');
-
+var Card = require('./Card.jsx');
 
 module.exports = React.createClass({
 	render: function() {
@@ -11,6 +11,8 @@ module.exports = React.createClass({
 			<InBtn />
 			<XIcon />
 			<CheckIcon />
+			<Card content="HELLO!" index="1" />
+
 		</div>;
 	}
 });
