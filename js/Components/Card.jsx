@@ -11,8 +11,8 @@ module.exports = React.createClass({
           {this.props.content}
         </div>
         <div className="cardButtons">
-          <span className="leftButton">&#10005;</span>
-          <span className="rightButton">&#10003;</span>
+          <span className="btn left">&#10005;</span>
+          <span className="btn right">&#10003;</span>
         </div>
 		  </div>
     );

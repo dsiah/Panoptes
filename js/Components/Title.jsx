@@ -8,11 +8,7 @@ var Card = require('./Card.jsx');
 module.exports = React.createClass({
 	render: function() {
 		return <div className="title">
-			<InBtn />
-			<XIcon />
-			<CheckIcon />
 			<Card content="HELLO!" index="1" />
-
 		</div>;
 	}
 });
