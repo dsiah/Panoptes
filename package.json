@@ -4,7 +4,9 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "build": "browserify ./js/test.js -t babelify --outfile ./js/testout.js",
+    "watch": "watch 'npm run build' ./js"
   },
   "repository": {
     "type": "git",
